@@ -51,9 +51,18 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #2e2f42;
   text-decoration: none;
   font-weight: 500;
+  list-style: Body Medium;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 nav ul li a:hover {
@@ -74,7 +83,7 @@ nav ul li a:hover {
 }
 
 .hero button {
-  background-color: #ff6b6b;
+  background-color: #4d5ae5;
   color: white;
   padding: 10px 20px;
   border: none;
