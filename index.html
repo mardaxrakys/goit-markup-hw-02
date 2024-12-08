@@ -10,23 +10,23 @@
   </head>
 
   <body>
-    <!-- Header Section -->
+    <!-- #region Header Section -->
     <header>
       <nav>
-        <a class="logo" href="./index.html"><set>WEB</set>STUDIO</a>
+        <a id="logo" class="logo" href="./index.html"><set>WEB</set>STUDIO</a>
 
         <!-- Другий дочірній елемент - ненумерований список -->
         <ul>
           <!-- Перший пункт меню -->
           <li><a href="/index.html">Studio</a></li>
           <!-- Другий пункт меню -->
-          <li><a href="/index.html">Portfolio</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
           <!-- Третій пункт меню -->
-          <li><a href="/index.html">Contacts</a></li>
+          <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
       <!-- Псилання -->
-      <address>
+      <address id="contacts">
         <ul>
           <li><a href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
 
@@ -34,6 +34,7 @@
         </ul>
       </address>
     </header>
+    <!-- #endregion -->
 
     <!-- Main Content -->
     <main>
@@ -43,44 +44,45 @@
         <button type="button">Order Service</button>
       </section>
 
-      <!-- Section 2 -->
+      <!-- #region Section 2 -->
       <section>
-        <h2>Hidden</h2>
+        <h2 hidden>explanation</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="header_3">Strategy</h3>
+            <p class="p_h_3">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="header_3">Punctuality</h3>
+            <p class="p_h_3">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="header_3">Diligence</h3>
+            <p class="p_h_3">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="header_3">Technologies</h3>
+            <p class="p_h_3">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
+      <!-- #endregion -->
 
-      <!-- Section 3: Our Team -->
+      <!-- #region Section 3: Our Team -->
       <section>
-        <h2>Our Team</h2>
+        <h2 class="header_2">Our Team</h2>
         <ul>
           <li>
             <img
@@ -88,13 +90,13 @@
               alt="photo Mark Guerrero"
               width="264"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="header_3">Mark Guerrero</h3>
+            <p class="p_h_3">Product Designer</p>
           </li>
           <li>
             <img src="./images/team-02.jpg" alt="photo Tom Ford" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="header_3">Tom Ford</h3>
+            <p class="p_h_3">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -102,8 +104,8 @@
               alt="photo Camila Garcia"
               width="264"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="header_3">Camila Garcia</h3>
+            <p class="p_h_3">Marketing</p>
           </li>
           <li>
             <img
@@ -111,58 +113,60 @@
               alt="photo Daniel Wilson"
               width="264"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="header_3">Daniel Wilson</h3>
+            <p class="p_h_3">UI Designer</p>
           </li>
         </ul>
       </section>
+      <!-- #endregion -->
     </main>
 
-    <!-- Section 4: Portfolio -->
-    <h2 id="Portfolio">Our Portfolio</h2>
+    <!-- #region Section 4: Portfolio -->
+    <h2 class="header_2" id="Portfolio">Our Portfolio</h2>
     <section>
       <ul>
         <!--  style="display: qrid; qrid-template-columns: repeat(3, 1fr)" -->
         <!-- 1 img sel.1-1 -->
         <li>
           <img src="./images/image1-1.png" alt="" width="360" height="" />
-          <h3>Banking App</h3>
-          <p>App</p>
+          <h3 class="header_3">Banking App</h3>
+          <p class="p_h_3">App</p>
         </li>
         <li>
           <img src="./images/image1-2.png" alt="" width="360" height="" />
           <h3>Cashless Payment</h3>
-          <p>Marketing</p>
+          <p class="p_h_3">Marketing</p>
         </li>
         <li>
           <img src="./images/image1-3.png" alt="" width="360" height="" />
-          <h3>Meditation App</h3>
-          <p>App</p>
+          <h3 class="header_3">Meditation App</h3>
+          <p class="p_h_3">App</p>
         </li>
       </ul>
       <ul>
         <!-- 2 img sek.2-1 -->
         <li>
           <img src="./images/image2-1.png" alt="" width="360" height="" />
-          <h3>Taxi Service</h3>
-          <p>Marketing</p>
+          <h3 class="header_3">Taxi Service</h3>
+          <p class="p_h_3">Marketing</p>
         </li>
         <li>
           <img src="./images/image2-2.png" alt="" width="360" height="" />
-          <h3>Screen Illustrations</h3>
-          <p>Design</p>
+          <h3 class="header_3">Screen Illustrations</h3>
+          <p class="p_h_3">Design</p>
         </li>
         <li>
           <img src="./images/image2-3.png" alt="" width="360" height="" />
-          <h3>Online Courses</h3>
-          <p>Marketing</p>
+          <h3 class="header_3">Online Courses</h3>
+          <p class="p_h_3">Marketing</p>
         </li>
       </ul>
     </section>
+    <!-- #endregion -->
 
     <!-- Footer Section -->
     <footer>
-      <a href="./index.html"> WebStudio </a>
+      <a href="./index.html"><set>WEB</set>STUDIO</a>
 
       <p>
         Increase the flow of customers and sales for your business with digital
