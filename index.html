@@ -1,165 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--                       HEAD                     -->
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web Studio</title>
+    <link rel="shortcut icon" href="images/teamM.png" type="images/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- #region modern-normalize-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
+    <!-- #endregion -->
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <!--site header-->
+    <!-- #region Header Section -->
     <header>
       <nav>
-        <!--site logo-->
-        <a href="./index.html" class="logo-header link">
-          Web<span class="logo-header-blue">Studio</span>
-        </a>
-        <!--nav list-->
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Studio</a></li>
-          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
-          <li><a href="" class="link">Contacts</a></li>
+        <a href="./index.html">WEB<span>STUDIO</span></a>
+
+        <!-- Другий дочірній елемент - ненумерований список -->
+        <ul>
+          <!-- Перший пункт меню -->
+          <li><a href="#logo">Studio</a></li>
+          <!-- Другий пункт меню -->
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <!-- Третій пункт меню -->
+          <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
-      <!--contacts-->
-      <address class="site-nav-address">
-        <ul class="site-nav list">
+      <!-- Псилання -->
+      <address id="contacts">
+        <ul>
           <li>
-            <a href="mailto:info@devstudio.com" class="contacts link"
-              >info@devstudio.com</a
-            >
+            <a href="mailto:info@devstudio.com"> info@devstudio.com </a>
           </li>
+
           <li>
-            <a href="tel:+110001111111" class="contacts link"
-              >+11 (000) 111-11-11</a
-            >
+            <a href="tel:+110001111111">+11 (000) 111-11-11 </a>
           </li>
         </ul>
       </address>
     </header>
+    <!-- #endregion -->
+
+    <!-- Main Content -->
     <main>
-      <!--hero content-->
-      <section class="hero">
-        <h1 class="section-banner-title">
-          Effective Solutions for Your Business
-        </h1>
-        <button type="button" class="btn-banner">Order Service</button>
+      <!-- hero -->
+      <section>
+        <h1>Effective Solutions for Your Business</h1>
+        <button type="button">Order Service</button>
       </section>
 
-      <section class="section-features">
-        <h2 hidden class="section-title">Features</h2>
-        <ul class="features-list list">
+      <!-- #region Section 1 -->
+      <section>
+        <h2 hidden>explanation</h2>
+        <ul>
           <li>
-            <h3 class="card-title">Strategy</h3>
-            <p class="section-team-text">
+            <h3>Strategy</h3>
+            <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3 class="card-title">Punctuality</h3>
-            <p class="section-team-text">
+            <h3>Punctuality</h3>
+            <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3 class="card-title">Diligence</h3>
-            <p class="section-team-text">
+            <h3>Diligence</h3>
+            <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3 class="card-title">Technologies</h3>
-            <p class="section-team-text">
+            <h3>Technologies</h3>
+            <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
+      <!-- #endregion -->
 
-      <section class="section-works">
-        <h2 class="section-title">What are we doing</h2>
-        <ul class="section-list list">
+      <!-- #region Section 2: Our Team -->
+      <section>
+        <h2>Our Team</h2>
+        <ul>
           <li>
             <img
-              src="./images/about-img-1.jpg"
-              alt="Desktop app interface development"
-              width="360"
+              src="./images/team-01.jpg"
+              alt="photo Mark Guerrero"
+              width="264"
             />
+            <h3>Mark Guerrero</h3>
+            <p>Product Designer</p>
+          </li>
+          <li>
+            <img src="./images/team-02.jpg" alt="photo Tom Ford" width="264" />
+            <h3>Tom Ford</h3>
+            <p>Frontend Developer</p>
           </li>
           <li>
             <img
-              src="./images/about-img-2.jpg"
-              alt="Mobile app interface development"
-              width="360"
+              src="./images/team-03.jpg"
+              alt="photo Camila Garcia"
+              width="264"
             />
+            <h3>Camila Garcia</h3>
+            <p>Marketing</p>
           </li>
           <li>
             <img
-              src="./images/about-img-3.jpg"
-              alt="Web site development"
-              width="360"
+              src="./images/team-04.jpg"
+              alt="photo Daniel Wilson"
+              width="264"
             />
+            <h3>Daniel Wilson</h3>
+            <p>UI Designer</p>
           </li>
         </ul>
       </section>
-
-      <section class="section-team">
-        <h2 class="section-title">Our Team</h2>
-        <ul class="section-list list">
-          <li>
-            <img
-              src="./images/photo-1.jpg"
-              alt="Product Designer photo"
-              width="264"
-            />
-            <h3 class="card-title">Mark Guerrero</h3>
-            <p class="section-team-text">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./images/photo-2.jpg"
-              alt="Frontend Developer photo"
-              width="264"
-            />
-            <h3 class="card-title">Tom Ford</h3>
-            <p class="section-team-text">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/photo-3.jpg"
-              alt="Marketing Manager photo"
-              width="264"
-            />
-            <h3 class="card-title">Camila Garcia</h3>
-            <p class="section-team-text">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/photo-4.jpg"
-              alt="UI Designer photo"
-              width="264"
-            />
-            <h3 class="card-title">Daniel Wilson</h3>
-            <p class="section-team-text">UI Designer</p>
-          </li>
-        </ul>
-      </section>
+      <!-- #endregion -->
     </main>
-    <footer class="section-address">
-      <a href="./index.html" class="logo-header link">
-        Web<span class="logo-header-white">Studio</span>
-      </a>
+
+    <!-- #region Section 3: Portfolio -->
+    <h2 id="Portfolio">Our Portfolio</h2>
+    <section>
+      <ul>
+        <!--  style="display: qrid; qrid-template-columns: repeat(3, 1fr)" -->
+        <!-- 1 img sel.1-1 -->
+        <li>
+          <img src="./images/image1-1.png" alt="" width="360" height="" />
+          <h3>Banking App</h3>
+          <p>App</p>
+        </li>
+        <li>
+          <img src="./images/image1-2.png" alt="" width="360" height="" />
+          <h3>Cashless Payment</h3>
+          <p>Marketing</p>
+        </li>
+        <li>
+          <img src="./images/image1-3.png" alt="" width="360" height="" />
+          <h3>Meditation App</h3>
+          <p>App</p>
+        </li>
+      </ul>
+      <ul>
+        <!-- 2 img sek.2-1 -->
+        <li>
+          <img src="./images/image2-1.png" alt="" width="360" height="" />
+          <h3>Taxi Service</h3>
+          <p>Marketing</p>
+        </li>
+        <li>
+          <img src="./images/image2-2.png" alt="" width="360" height="" />
+          <h3>Screen Illustrations</h3>
+          <p>Design</p>
+        </li>
+        <li>
+          <img src="./images/image2-3.png" alt="" width="360" height="" />
+          <h3>Online Courses</h3>
+          <p>Marketing</p>
+        </li>
+      </ul>
+    </section>
+    <!-- #endregion -->
+
+    <!-- Footer Section -->
+    <footer>
+      <a href="./index.html"><set>WEB</set>STUDIO</a>
+
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
