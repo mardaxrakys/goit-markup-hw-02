@@ -28,8 +28,8 @@ span {
   color: #2e2f42;
 }
 
-.-nav:hover,
-.-nav:focus {
+.-link:hover,
+.-link:focus {
   color: #404bbf;
 }
 
