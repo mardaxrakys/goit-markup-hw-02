@@ -14,4 +14,8 @@ header-logo {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
+span {
+  color: #2e2f42;
+}
 /* #endregion */
