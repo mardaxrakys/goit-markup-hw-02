@@ -2,9 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  width: 1440px;
-  height: 3300px;
-  background: #434455;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -82,13 +80,6 @@ address {
 /* #endregion */
 /* #region HERO */
 .hero {
-  text-align: center;
-  padding: 100px 20px;
-  width: 1440px;
-  height: 600px;
-  top: 72px;
-  gap: 0px;
-  opacity: 0px;
   background-color: #434455;
   color: white;
 }
