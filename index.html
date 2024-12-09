@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--                       HEAD                     -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Web Studio</title>
     <link rel="shortcut icon" href="images/teamM.png" type="images/svg+xml" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- #region modern-normalize-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
+    <!-- #endregion -->
+
+    <link rel="stylesheet" href="./styles.css" />
   </head>
 
   <body>
     <!-- #region Header Section -->
-    <header>
+    <header class="header">
       <nav>
-        <a id="logo" class="logo" href="./index.html"><set>WEB</set>STUDIO</a>
+        <a class="logo" id="logo" href="./index.html"><set>WEB</set>STUDIO</a>
 
         <!-- Другий дочірній елемент - ненумерований список -->
-        <ul>
+        <ul class="medium">
           <!-- Перший пункт меню -->
-          <li><a href="/index.html">Studio</a></li>
+          <li><a href="#logo">Studio</a></li>
           <!-- Другий пункт меню -->
           <li><a href="#Portfolio">Portfolio</a></li>
           <!-- Третій пункт меню -->
@@ -29,9 +48,15 @@
       <!-- Псилання -->
       <address id="contacts">
         <ul>
-          <li><a href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
+          <li>
+            <a class="add" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+          </li>
 
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11 </a></li>
+          <li>
+            <a class="add" href="tel:+110001111111">+11 (000) 111-11-11 </a>
+          </li>
         </ul>
       </address>
     </header>
@@ -45,34 +70,34 @@
         <button type="button">Order Service</button>
       </section>
 
-      <!-- #region Section 2 -->
-      <section>
+      <!-- #region Section 1 -->
+      <section class="s1">
         <h2 hidden>explanation</h2>
         <ul>
           <li>
-            <h3 class="header_3">Strategy</h3>
-            <p class="p_h_3">
+            <h3 class="heds">Strategy</h3>
+            <p class="phed">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3 class="header_3">Punctuality</h3>
-            <p class="p_h_3">
+            <h3 class="heds">Punctuality</h3>
+            <p class="phed">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3 class="header_3">Diligence</h3>
-            <p class="p_h_3">
+            <h3 class="heds">Diligence</h3>
+            <p class="phed">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3 class="header_3">Technologies</h3>
-            <p class="p_h_3">
+            <h3 class="heds">Technologies</h3>
+            <p class="phed">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -81,9 +106,9 @@
       </section>
       <!-- #endregion -->
 
-      <!-- #region Section 3: Our Team -->
+      <!-- #region Section 2: Our Team -->
       <section>
-        <h2 class="header_2">Our Team</h2>
+        <h2 class="header_two">Our Team</h2>
         <ul>
           <li>
             <img
@@ -91,13 +116,13 @@
               alt="photo Mark Guerrero"
               width="264"
             />
-            <h3 class="header_3">Mark Guerrero</h3>
-            <p class="p_h_3">Product Designer</p>
+            <h3 class="heds">Mark Guerrero</h3>
+            <p class="phed">Product Designer</p>
           </li>
           <li>
             <img src="./images/team-02.jpg" alt="photo Tom Ford" width="264" />
-            <h3 class="header_3">Tom Ford</h3>
-            <p class="p_h_3">Frontend Developer</p>
+            <h3 class="heds">Tom Ford</h3>
+            <p class="phed">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -105,8 +130,8 @@
               alt="photo Camila Garcia"
               width="264"
             />
-            <h3 class="header_3">Camila Garcia</h3>
-            <p class="p_h_3">Marketing</p>
+            <h3 class="heds">Camila Garcia</h3>
+            <p class="phed">Marketing</p>
           </li>
           <li>
             <img
@@ -114,52 +139,52 @@
               alt="photo Daniel Wilson"
               width="264"
             />
-            <h3 class="header_3">Daniel Wilson</h3>
-            <p class="p_h_3">UI Designer</p>
+            <h3 class="heds">Daniel Wilson</h3>
+            <p class="phed">UI Designer</p>
           </li>
         </ul>
       </section>
       <!-- #endregion -->
     </main>
 
-    <!-- #region Section 4: Portfolio -->
-    <h2 class="header_2" id="Portfolio">Our Portfolio</h2>
+    <!-- #region Section 3: Portfolio -->
+    <h2 class="header_two" id="Portfolio">Our Portfolio</h2>
     <section>
       <ul>
         <!--  style="display: qrid; qrid-template-columns: repeat(3, 1fr)" -->
         <!-- 1 img sel.1-1 -->
         <li>
           <img src="./images/image1-1.png" alt="" width="360" height="" />
-          <h3 class="header_3">Banking App</h3>
-          <p class="p_h_3">App</p>
+          <h3 class="heds">Banking App</h3>
+          <p class="phed">App</p>
         </li>
         <li>
           <img src="./images/image1-2.png" alt="" width="360" height="" />
           <h3>Cashless Payment</h3>
-          <p class="p_h_3">Marketing</p>
+          <p class="phed">Marketing</p>
         </li>
         <li>
           <img src="./images/image1-3.png" alt="" width="360" height="" />
-          <h3 class="header_3">Meditation App</h3>
-          <p class="p_h_3">App</p>
+          <h3 class="heds">Meditation App</h3>
+          <p class="phed">App</p>
         </li>
       </ul>
       <ul>
         <!-- 2 img sek.2-1 -->
         <li>
           <img src="./images/image2-1.png" alt="" width="360" height="" />
-          <h3 class="header_3">Taxi Service</h3>
-          <p class="p_h_3">Marketing</p>
+          <h3 class="heds">Taxi Service</h3>
+          <p class="phed">Marketing</p>
         </li>
         <li>
           <img src="./images/image2-2.png" alt="" width="360" height="" />
-          <h3 class="header_3">Screen Illustrations</h3>
-          <p class="p_h_3">Design</p>
+          <h3 class="heds">Screen Illustrations</h3>
+          <p class="phed">Design</p>
         </li>
         <li>
           <img src="./images/image2-3.png" alt="" width="360" height="" />
-          <h3 class="header_3">Online Courses</h3>
-          <p class="p_h_3">Marketing</p>
+          <h3 class="heds">Online Courses</h3>
+          <p class="phed">Marketing</p>
         </li>
       </ul>
     </section>
