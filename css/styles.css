@@ -31,5 +31,19 @@ span {
 .li-nav:focus {
   color: #404bbf;
 }
+/* ADDRESS */
+.address-style {
+  font-style: normal;
+}
 
+.add-st {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.add-st:hover,
+.add-st:focus {
+  color: #404bbf;
+}
 /* #endregion */
