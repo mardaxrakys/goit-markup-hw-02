@@ -97,4 +97,9 @@ span {
   background-color: #f4f4fd;
 }
 
+.member-role {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* #endregion */
